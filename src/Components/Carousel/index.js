@@ -8,7 +8,7 @@ const CarouselBox = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.picsum.photos/id/955/500/300.jpg?hmac=smYQz3eakNIkbe9ZJrEnsCjM2d38lyujpY2hs47I4_8"
+            src="https://i.picsum.photos/id/1057/400/200.jpg?hmac=dqf-XbcrjyVlPSZ9orq1NA4V9l3z46ZL6ohYUEaTRrk"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -19,7 +19,7 @@ const CarouselBox = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.picsum.photos/id/494/500/300.jpg?hmac=9OGVLWQQwlMQBHeX73n2dKMGVjODeVM_rFA17sPuOEQ"
+            src="https://i.picsum.photos/id/1042/400/200.jpg?hmac=NL1EUTUfuarfF075fs539P-m5d2xO3gACkbt6nT8E2I"
             alt="Third slide"
           />
 
@@ -31,7 +31,7 @@ const CarouselBox = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.picsum.photos/id/110/500/300.jpg?hmac=BH32INqyaSkvZF-_HyDip3MypRBR5VZGUFc-5Chzq3U"
+            src="https://i.picsum.photos/id/718/400/200.jpg?hmac=Jtg2dmUeZkR_S0l-bzJQ5mGxWq9JkVvxvGQVQuXM3xA"
             alt="Third slide"
           />
 
