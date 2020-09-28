@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Nav, Image, FormControl, Button } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   return (
@@ -7,7 +7,7 @@ const NavBar = () => {
       <Navbar.Brand href="#home">
         <img
           alt=""
-          src="../../Static/global-macspec-logo.jpg"
+          src="../../../public/static/global-macspec-logo.jpg"
           width="30"
           height="30"
           className="d-inline-block align-top"
