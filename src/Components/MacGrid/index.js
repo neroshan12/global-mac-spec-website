@@ -5,6 +5,7 @@ import "./macgrid.scss";
 const MacGrid = () => {
   return (
     <div className="card-deck-container">
+      <h3>Macs for sale</h3>
       <CardDeck>
         <Card>
           <Card.Img
