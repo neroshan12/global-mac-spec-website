@@ -5,7 +5,7 @@ const Heading = () => {
   return (
     <div className="heading-container">
       <h2>Global Macspec</h2>
-      <h4>Call us free on 07776566676</h4>
+      <h4>Call us free on 07983209777</h4>
     </div>
   );
 };
