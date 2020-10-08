@@ -7,9 +7,9 @@ const NavBar = () => {
       <Navbar.Brand href="#home">
         <img
           alt=""
-          src="../../../public/static/global-macspec-logo.jpg"
-          width="30"
-          height="30"
+          src={process.env.PUBLIC_URL + "static/global-macspec-logo.jpg"}
+          width="45"
+          height="45"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>

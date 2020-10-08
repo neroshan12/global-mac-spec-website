@@ -10,30 +10,14 @@ const MacGrid = () => {
         <Card>
           <Card.Img
             variant="top"
-            src="https://i.picsum.photos/id/1057/400/200.jpg?hmac=dqf-XbcrjyVlPSZ9orq1NA4V9l3z46ZL6ohYUEaTRrk"
-          />{" "}
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img
-            variant="top"
-            src="https://i.picsum.photos/id/1057/400/200.jpg?hmac=dqf-XbcrjyVlPSZ9orq1NA4V9l3z46ZL6ohYUEaTRrk"
+            //style={{ height: "300px", width: "300px" }}
+            src={process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"}
           />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>21.5" iMac</Card.Title>
             <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
+              21.5-Inch Apple Imac "Dual Core I5" 1.4Ghz 8Gb Ram 500GB HDD
+              (Mid-2014) £450
             </Card.Text>
           </Card.Body>
           <Card.Footer>
@@ -43,14 +27,29 @@ const MacGrid = () => {
         <Card>
           <Card.Img
             variant="top"
-            src="https://i.picsum.photos/id/1057/400/200.jpg?hmac=dqf-XbcrjyVlPSZ9orq1NA4V9l3z46ZL6ohYUEaTRrk"
-          />{" "}
+            src={process.env.PUBLIC_URL + "static/Macs/27inchmac.jpeg"}
+          />
           <Card.Body>
-            <Card.Title>Card title</Card.Title>
+            <Card.Title>27 iMac</Card.Title>
             <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
+              27-Inch (Slim) Apple iMac "Quad Core i5" 2.9Ghz 8GB Ram 1TB HDD
+              (Late 2012/13) £700
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </Card.Footer>
+        </Card>
+        <Card>
+          <Card.Img
+            variant="top"
+            src={process.env.PUBLIC_URL + "static/Macs/imacpro.jpg"}
+          />
+          <Card.Body>
+            <Card.Title>iMac Pro</Card.Title>
+            <Card.Text>
+              27-Inch Apple iMac Pro ”14 Core" 2.5Ghz Xeon W 64GB Ram 1TB SSD
+              (Late 2017) £5499
             </Card.Text>
           </Card.Body>
           <Card.Footer>
