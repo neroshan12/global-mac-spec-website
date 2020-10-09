@@ -10,7 +10,6 @@ const MacGrid = () => {
         <Card>
           <Card.Img
             variant="top"
-            //style={{ height: "300px", width: "300px" }}
             src={process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"}
           />
           <Card.Body>
