@@ -4,7 +4,7 @@ import "./heading.scss";
 const Heading = () => {
   return (
     <div className="heading-container">
-      <h2>Global Macspec</h2>
+      <h2>Global Mac Spec</h2>
       <h4>Call us free on 07983209777</h4>
     </div>
   );
