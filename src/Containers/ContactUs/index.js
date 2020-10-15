@@ -1,17 +1,19 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Map from "../../Components/Map";
 
 const ContactUs = () => {
   return (
     <div>
       <Container>
         <Row>
-          <Col sm={8}>
+          <Col sm={12}>
             <h3>Contact Us</h3>
           </Col>
-          <Col sm={8}>
+          <Col sm={12}>
             <h6>Where are we?</h6>
             <p>69-77 High Street, Croydon, CR0 1QQ</p>
+            <Map />
           </Col>
         </Row>
         <Row>
