@@ -4,7 +4,7 @@ import Quote from "../../Components/Quote";
 const Buy = () => {
   return (
     <div>
-      <h1>Buy</h1>
+      <h1>Buy a mac</h1>
       <Quote />
     </div>
   );

@@ -25,6 +25,18 @@ const ContactUs = () => {
             <p>11am - 4pm</p>
           </Col>
         </Row>
+        <Row>
+          <Col>
+            <h6>Train station</h6>
+            <p>We're a short walk away from East Croydon station.</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <h6>Routes</h6>
+            <p></p>
+          </Col>
+        </Row>
       </Container>
     </div>
   );

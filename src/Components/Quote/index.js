@@ -21,6 +21,7 @@ const Quote = () => {
   return (
     <form onSubmit={handleSubmit}>
       <Form>
+        <h3>Get in touch</h3>
         <Form.Group controlId="formBasicName">
           <Form.Label>Your Name</Form.Label>
           <Form.Control type="text" placeholder="Enter your name" required />
