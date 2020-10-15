@@ -7,8 +7,6 @@ import MacGrid from "../../Components/MacGrid";
 const Home = () => {
   return (
     <div>
-      <Heading />
-      <NavBar />
       <Carousel />
       <MacGrid />
     </div>

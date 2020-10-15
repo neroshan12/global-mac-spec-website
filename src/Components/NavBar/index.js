@@ -1,10 +1,11 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <Navbar bg="light" variat="light" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand as={Link} to="/">
         <img
           alt=""
           src={process.env.PUBLIC_URL + "static/global-macspec-logo.jpg"}
@@ -15,11 +16,21 @@ const NavBar = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav.Link href="#buy">Buy a mac</Nav.Link>
-        <Nav.Link href="#sell">Sell a mac</Nav.Link>
-        <Nav.Link href="#repairs">Repairs</Nav.Link>
-        <Nav.Link href="#aboutUs">About Us</Nav.Link>
-        <Nav.Link href="#contactUs">Contact Us</Nav.Link>
+        <Nav.Link as={Link} to="/buy">
+          Buy a mac
+        </Nav.Link>
+        <Nav.Link as={Link} to="/sell">
+          Sell a mac
+        </Nav.Link>
+        <Nav.Link as={Link} to="/repairs">
+          Repairs
+        </Nav.Link>
+        <Nav.Link as={Link} to="/about-us">
+          About Us
+        </Nav.Link>
+        <Nav.Link as={Link} to="/contact-us">
+          Contact Us
+        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );
