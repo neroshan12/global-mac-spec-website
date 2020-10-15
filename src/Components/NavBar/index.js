@@ -19,6 +19,9 @@ const NavBar = () => {
         <Nav.Link as={Link} to="/buy">
           Buy a mac
         </Nav.Link>
+        <Nav.Link as={Link} to="/hire">
+          Hire a mac
+        </Nav.Link>
         <Nav.Link as={Link} to="/sell">
           Sell a mac
         </Nav.Link>
