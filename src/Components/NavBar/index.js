@@ -34,6 +34,9 @@ const NavBar = () => {
         <Nav.Link as={Link} to="/contact-us">
           Contact Us
         </Nav.Link>
+        <Nav.Link as={Link} to="/covid-19">
+          Covid-19
+        </Nav.Link>
       </Navbar.Collapse>
     </Navbar>
   );

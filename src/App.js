@@ -9,6 +9,7 @@ import Sell from "./Containers/Sell";
 import Repairs from "./Containers/Repairs";
 import AboutUs from "./Containers/AboutUs";
 import ContactUs from "./Containers/ContactUs";
+import Covid from "./Containers/Covid";
 import "./App.scss";
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/repairs" component={Repairs} />
           <Route path="/about-us" component={AboutUs} />
           <Route path="/contact-us" component={ContactUs} />
+          <Route path="/covid-19" component={Covid} />
         </Switch>
       </div>
     </BrowserRouter>

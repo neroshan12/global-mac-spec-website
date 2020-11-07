@@ -1,12 +1,16 @@
 import React from "react";
 import Quote from "../../Components/Quote";
+import MacGrid from "../../Components/MacGrid";
+import "./buy.scss";
 
 const Buy = () => {
   return (
-    <div>
-      <h1>Buy a mac</h1>
-      <Quote />
-    </div>
+    <>
+      <div className="buy-container">
+        <MacGrid />
+        <Quote />
+      </div>
+    </>
   );
 };
 

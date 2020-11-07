@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import emailjs from "emailjs-com";
+import "./quote.scss";
 
 const Quote = () => {
   const SERVICE_ID = process.env.REACT_APP_EMAIL_SERVICE_ID;
@@ -20,7 +21,7 @@ const Quote = () => {
   };
   return (
     <form onSubmit={handleSubmit}>
-      <Form>
+      <Form className="form-container">
         <h3>Get in touch</h3>
         <Form.Group controlId="formBasicName">
           <Form.Label>Your Name</Form.Label>
@@ -45,10 +46,11 @@ const Quote = () => {
           <Form.Label>Tell us more</Form.Label>
           <Form.Control as="textarea" rows={3} />
         </Form.Group>
-
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
+        <div className="button-container">
+          <Button variant="primary" type="submit">
+            Submit
+          </Button>
+        </div>
       </Form>
     </form>
   );

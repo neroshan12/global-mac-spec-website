@@ -1,0 +1,15 @@
+.form-container {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f9fbfd;
+  border-radius: 3px;
+  @media (min-width: 768px) {
+    margin-top: 1rem;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

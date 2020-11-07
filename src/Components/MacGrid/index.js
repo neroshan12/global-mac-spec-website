@@ -5,7 +5,6 @@ import "./macgrid.scss";
 const MacGrid = () => {
   return (
     <div className="card-deck-container">
-      <h3>Macs for sale</h3>
       <CardDeck>
         <Card>
           <Card.Img
@@ -26,7 +25,7 @@ const MacGrid = () => {
         <Card>
           <Card.Img
             variant="top"
-            src={process.env.PUBLIC_URL + "static/Macs/27inchmac.jpeg"}
+            src={process.env.PUBLIC_URL + "static/Macs/imacpro.jpg"}
           />
           <Card.Body>
             <Card.Title>27 iMac</Card.Title>
