@@ -14,8 +14,12 @@ const MacGrid = () => {
           <Card.Body>
             <Card.Title>21.5" iMac</Card.Title>
             <Card.Text>
-              21.5-Inch Apple Imac "Dual Core I5" 1.4Ghz 8Gb Ram 500GB HDD
-              (Mid-2014) £450
+              <p>21.5-Inch Apple Imac</p>
+              <p>"Dual Core I5" 1.4Ghz</p>
+              <p>8Gb Ram </p>
+              <p>500GB HDD</p>
+              <p>(Mid-2014) </p>
+              <p>£450</p>
             </Card.Text>
           </Card.Body>
           <Card.Footer>
