@@ -422,34 +422,211 @@
     year: `(Mid 2017)`,
     price: "£1000",
   },
+  {
+    name: `15" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.4Ghz`,
+    ram: "4GB Ram",
+    memory: "320GB HDD",
+    year: `(Late 2008)`,
+    price: "£275",
+  },
+  {
+    name: `15" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.4Ghz`,
+    ram: "4GB Ram",
+    memory: "320GB HDD",
+    year: `(Late 2008)`,
+    price: "£275",
+  },
+  {
+    name: `15" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.66Ghz`,
+    ram: "4GB Ram",
+    memory: "320GB HDD",
+    year: `(Mid-2009)`,
+    price: "£300",
+  },
+  {
+    name: `15" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.3Ghz`,
+    ram: "8GB Ram",
+    memory: "500GB HDD",
+    year: `(Mid 2012)`,
+    price: "£550",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.0Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2013)`,
+    price: "£700",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.3Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2013)`,
+    price: "£650",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.2Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2014)`,
+    price: "£950",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.5Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2014)`,
+    price: "£1050",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.8Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2014)`,
+    price: "£1150",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.2Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2015)`,
+    price: "£1050",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.5Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2015)`,
+    price: "£1150",
+  },
+  {
+    name: `15" Macbook Pro (Unibody) Retina Display`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.8Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2015)`,
+    price: "£1250",
+  },
+  {
+    name: `15" Macbook Pro Retina Display touch bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.6Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2016)`,
+    price: "£1200",
+  },
+  {
+    name: `15" Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.8Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2017)`,
+    price: "£1400",
+  },
+  {
+    name: `15" Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.9Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2016)`,
+    price: "£1300",
+  },
+  {
+    name: `15" Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"6 Core i7" 2.2Ghz`,
+    ram: "16GB Ram",
+    memory: "256GB SSD",
+    year: `(Mid 2018)`,
+    price: "£1700",
+  },
+  {
+    name: `16" Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"6 Core i7" 2.6Ghz`,
+    ram: "16GB Ram",
+    memory: "512GB SSD",
+    year: `(Mid 2019)`,
+    price: "£1800",
+  },
+  {
+    name: `16" Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"8 Core i9" 2.3Ghz`,
+    ram: "16GB Ram",
+    memory: "1TB SSD",
+    year: `(2020)`,
+    price: "£2400",
+  },
+  {
+    name: `17" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.53Ghz`,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Mid 2010)`,
+    price: "£450",
+  },
+  {
+    name: `17" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.2Ghz`,
+    ram: "4GB Ram",
+    memory: "750GB HDD",
+    year: `(Early 2011)`,
+    price: "£550",
+  },
+  {
+    name: `17" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 2.4Ghz`,
+    ram: "4GB Ram",
+    memory: "750GB HDD",
+    year: `(Late 2011)`,
+    price: "£650",
+  },
+  {
+    name: `17" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.66Ghz`,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Early 2009)`,
+    price: "£350",
+  },
+  {
+    name: `17" Macbook Pro (Unibody)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 3.06Ghz`,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Mid 2009)`,
+    price: "£400",
+  },
 ];
-
-// 15 inch Unibody
-// Apple MacBook Pro "Core 2 Duo" 15 inch (Unibody) 2.4Ghz 4GB Ram 320GB HDD (Late 2008) £275
-// Apple MacBook Pro "Core 2 Duo" 15inch (Unibody) 2.66Ghz 4GB Ram 320GB HDD (Mid-2009) £300
-// Apple MacBook Pro "Quad Core i7" 15 inch (Unibody) 2.3Ghz 8GB Ram 500GB HDD (Mid-2012) £550
-// Apple Macbook Pro “Quad Core I7" 2.0Ghz 8Gb 256Gb Ssd 15 inch Retina Display (Late 2013) £700
-// Apple MacBook Pro “Quad Core i7" 2.3Ghz 8Gb 256GB SSD 15 inch Retina Display (Mid-2012) £650
-// Apple MacBook Pro “Quad Core i7" 2.2Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2014) £950
-// Apple MacBook Pro “Quad Core i7" 2.5Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2014) £1050
-// Apple MacBook Pro “Quad Core i7" 2.8Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2014) £1150
-// Apple MacBook Pro “Quad Core i7" 2.2Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2015) £1050
-// Apple MacBook Pro “Quad Core i7" 2.5Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2015) £1150
-// Apple MacBook Pro “Quad Core i7" 2.8Ghz 16Gb 256GB SSD 15 inch Retina Display (Mid 2015) £1250
-
-// 15 inch Touch Bar
-// 15 inch Retina Display (Touch Bar) Apple MacBook Pro "Quad Core i7" 2.6Ghz 16GB Ram 256GB SSD (Late 2016) £1200
-// 15 inch Retina Display (Touch Bar) Apple MacBook Pro "Quad Core I7" 2.8Ghz 16GB Ram 256GB SSD (Mid 2017) £1400
-// 15 inch Retina Display (Touch Bar) Apple MacBook Pro "Quad Core i7" 2.9Ghz 16GB Ram 256GB SSD (Late 2016) £1300
-// 15inch Retina Display (Touch Bar) Apple Macbook Pro “6 Core I7" 2.2Ghz 16Gb Ram 256Gb SSD (Mid 2018) £1700
-
-// 16 inch Touch Bar
-// 16 inch Retina Display (Touch Bar) Apple Macbook Pro “6 Core I7" 2.6Ghz 16Gb Ram 512Gb SSD (Mid 2019) £1800
-// 16 inch Retina Display (Touch Bar) Apple Macbook Pro “8 Core I9” 2.3Ghz 16Gb Ram 1TB SSD (2020) £2400
-
-// 17 inch Macbook Pro
-// 17 Inch Unibody Apple Macbook Pro "Core I5" 2.53Ghz 4GB Ram 500GB HDD (Mid 2010) £450
-// 17 Inch Unibody Apple MacBook Pro "Quad Core i7" 2.2Ghz 4GB Ram 750GB HDD (Early 2011) £550
-// 17 Inch Unibody Apple MacBook Pro "Quad Core i7" 2.4Ghz 4GB Ram 750GB HDD (Late 2011) £650
-// 17 Inch Unibody Apple MacBook Pro "Core 2 Duo" 2.66Ghz 4GB Ram 500GB HDD (Early 2009) £350
-// 17 Inch Unibody Apple Macbook Pro "Core 2 Duo" 3.06Ghz 4GB Ram 500GB Hdd (Mid-2009) £400
