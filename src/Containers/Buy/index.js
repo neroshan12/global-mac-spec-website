@@ -7,7 +7,7 @@ const Buy = () => {
   return (
     <>
       <div className="buy-container">
-        <MacGrid />
+        {/* <MacGrid /> */}
         <Quote />
       </div>
     </>
