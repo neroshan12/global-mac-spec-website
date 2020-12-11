@@ -6,10 +6,10 @@ const CarouselBox = () => {
   return (
     <div className="carousel-container">
       <Carousel>
-        <Carousel.Item style={{ height: "300px" }}>
+        <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock6.jpg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock3.jpg"}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -17,10 +17,10 @@ const CarouselBox = () => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={{ height: "300px" }}>
+        <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock2.jpeg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock9.jpg"}
             alt="Third slide"
           />
 
@@ -29,10 +29,10 @@ const CarouselBox = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={{ height: "300px" }}>
+        <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock5.jpeg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock10.jpg"}
             alt="Third slide"
           />
 

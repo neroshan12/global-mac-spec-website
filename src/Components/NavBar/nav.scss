@@ -1,0 +1,7 @@
+.navbar-collapse {
+  &.collapse {
+    @media (min-width: 992px) {
+      justify-content: center;
+    }
+  }
+}
