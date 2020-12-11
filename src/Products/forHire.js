@@ -80,73 +80,349 @@
     year: `(Mid-2011)`,
     price: "£375",
   },
+  {
+    name: `27" iMac (slim)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i5" 2.9Ghz`,
+    ram: "8GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2012/13)`,
+    price: "£700",
+  },
+  {
+    name: `27" iMac (slim)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i5" 3.2Ghz`,
+    ram: "8GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2013)`,
+    price: "£750",
+  },
+  {
+    name: `27" iMac (slim)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i5" 3.4Ghz`,
+    ram: "8GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2013)`,
+    price: "£800",
+  },
+  {
+    name: `27" iMac (slim)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core i7" 3.5Ghz`,
+    ram: "8GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2012)`,
+    price: "£850",
+  },
+  {
+    name: `27" iMac Aluminium`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Quad Core Duo" 3.06Ghz`,
+    ram: "4GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2009)`,
+    price: "No price currently available",
+  },
+  {
+    name: `27" iMac Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `”14 Core" 2.5Ghz Xeon W`,
+    ram: "64GB Ram",
+    memory: "1TB SSD",
+    year: `(Late 2017)`,
+    price: "£5499",
+  },
+  {
+    name: `27" iMac Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `”10 Core" 3.0Ghz Xeon W`,
+    ram: "32GB Ram",
+    memory: "1TB SSD",
+    year: `(Late 2017)`,
+    price: "£4799",
+  },
+  {
+    name: `27" iMac Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `”8 Core" 3.2Ghz Xeon W`,
+    ram: "32GB Ram",
+    memory: "1TB SSD",
+    year: `(Late 2017)`,
+    price: "£3299",
+  },
+  {
+    name: `Apple Mac Mini`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.3Ghz `,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Mid-2011)`,
+    price: "£300",
+  },
+  {
+    name: `Apple Mac Mini`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.5Ghz `,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Late 2012)`,
+    price: "£350",
+  },
+  {
+    name: `Apple Mac Mini`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.6Ghz `,
+    ram: "8GB Ram",
+    memory: "1TB HDD",
+    year: `(Late 2014)`,
+    price: "£450",
+  },
+  {
+    name: `Apple Mac Mini`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 3.0Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2018)`,
+    price: "£899",
+  },
+  {
+    name: `Apple Mac Mini`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7” 3.2Ghz`,
+    ram: "8GB Ram",
+    memory: "128GB SSD",
+    year: `(Late 2018)`,
+    price: "£999",
+  },
+  {
+    name: `Apple Mac Pro 6.1 "Trashcan"`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `Intel Based "Quad Core" Desktop 3.7Ghz`,
+    ram: "12GB Ram",
+    memory: "256GB SSD",
+    year: `No year available`,
+    price: "£1100",
+  },
+  {
+    name: `11.6" Apple Macbook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core I5" 1.4Ghz`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Early 2014)`,
+    price: "No price available",
+  },
+  {
+    name: `11.6" Apple Macbook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.0Ghz`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Mid-2012)`,
+    price: "No price available",
+  },
+  {
+    name: `11.6" Apple Macbook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.6Ghz`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Mid-2011)`,
+    price: "No price available",
+  },
+  {
+    name: `11.6" Apple Macbook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 1.8Ghz`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Mid-2011)`,
+    price: "No price available",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.8GHZ`,
+    ram: "8GB Ram",
+    memory: "128Gb SSD",
+    year: `(2017)`,
+    price: "£700",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.4GHZ`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Early 2014)`,
+    price: "£500",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.6GHZ`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Early 2015)`,
+    price: "£550",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.8GHZ`,
+    ram: "4GB Ram",
+    memory: "128Gb SSD",
+    year: `(Mid-2012)`,
+    price: "£450",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.2GHZ`,
+    ram: "8GB Ram",
+    memory: "128Gb SSD",
+    year: `(2017)`,
+    price: "£750",
+  },
+  {
+    name: `13 inch Apple MacBook Air`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.0GHZ`,
+    ram: "4GB Ram",
+    memory: "256Gb SSD",
+    year: `(Mid-2012)`,
+    price: "£550",
+  },
+  {
+    name: `13 inch Apple Macbook Air Retina Display Touch ID`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.6Ghz`,
+    ram: "8GB Ram",
+    memory: "128GB SSD",
+    year: `(2018)`,
+    price: "£850",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.26Ghz`,
+    ram: "2GB Ram",
+    memory: "160GB HDD",
+    year: `(Mid-2009)`,
+    price: "£250",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core 2 Duo" 2.4Ghz`,
+    ram: "4GB Ram",
+    memory: "250GB HDD",
+    year: `(Mid-2010)`,
+    price: "£275",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.3Ghz`,
+    ram: "4GB Ram",
+    memory: "320GB HDD",
+    year: `(Early 2011)`,
+    price: "£400",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.4Ghz`,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Late 2011)`,
+    price: "£450",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.5Ghz`,
+    ram: "4GB Ram",
+    memory: "500GB HDD",
+    year: `(Mid 2012)`,
+    price: "£500",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.9Ghz`,
+    ram: "8GB Ram",
+    memory: "750GB HDD",
+    year: `(Mid 2012)`,
+    price: "£550",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.9Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2016)`,
+    price: "£900",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display Touch Bar`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 3.3Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2016)`,
+    price: "£1050",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display Touch Bar Touch ID`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 1.4Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2019)`,
+    price: "£1000",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.0Ghz`,
+    ram: "8GB Ram",
+    memory: "128GB SSD",
+    year: `(Late 2016)`,
+    price: "£700",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i5" 2.3Ghz`,
+    ram: "8GB Ram",
+    memory: "128GB SSD",
+    year: `(Mid 2017)`,
+    price: "£800",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.4Ghz`,
+    ram: "8GB Ram",
+    memory: "256GB SSD",
+    year: `(Late 2016)`,
+    price: "£850",
+  },
+  {
+    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    processor: `"Core i7" 2.5Ghz`,
+    ram: "8GB Ram",
+    memory: "128GB SSD",
+    year: `(Mid 2017)`,
+    price: "£1000",
+  },
 ];
-
-// 21.5 iMac
-// 21.5-Inch Apple Imac "Dual Core I5" 1.4Ghz 8Gb Ram 500GB HDD (Mid-2014) £450
-// 21.5-Inch Apple Imac "Quad Core I5" 2.7Ghz 8GB Ram 1TB HDD (Late 2012/13) £500
-// 21.5-Inch Apple IMac "Quad Core I5" 3.0Ghz 8GB Ram 1TB HDD (4K, Mid-2017) (USB-C Thunderbolt 3) £849
-// 21.5-Inch Apple IMac "Quad Core I5" 3.1Ghz 8GB Ram 1TB HDD (4K, Late 2015) £750
-// 21.5-Inch Apple Imac "Quad Core I7" 3.1Ghz 8Gb Ram 1TB HDD (Late 2012/13) £650
-// 21.5-Inch Apple iMac Aluminium "Core 2 Duo" 3.06Ghz 4GB Ram 500GB HDD (Late 2009) £275
-// 21.5-Inch Apple iMac Aluminium "Core i3" 3.06Ghz 4GB Ram 500GB HDD (Mid-2010) £300
-// 21.5-Inch Apple iMac Aluminium "Quad Core i5" 2.5Ghz 4GB Ram 500GB HDD (Mid-2011) £325
-// 21.5-Inch Apple iMac Aluminium "Quad Core I7" 2.8Ghz 4Gb Ram 1TB HDD (Mid-2011) £375
-
-// 27 iMac
-// 27-Inch (Slim) Apple iMac "Quad Core i5" 2.9Ghz 8GB Ram 1TB HDD (Late 2012/13) £700
-// 27-Inch (Slim) Apple iMac "Quad Core i5” 3.2Ghz 8GB Ram 1TB HDD (Late 2013) £750
-// 27-Inch (Slim) Apple iMac "Quad Core i5” 3.4Ghz 8GB Ram 1TB HDD (Late 2013) £800
-// 27-Inch (Slim) Apple iMac "Quad Core i7" 3.5Ghz 8GB Ram 1TB HDD (Late 2012) £850
-// 27-Inch Apple Imac Aluminium "Core 2 Duo" 3.06Ghz 4GB Ram 1TB HDD (Late 2009)
-
-// iMac Pro
-// 27-Inch Apple iMac Pro ”14 Core" 2.5Ghz Xeon W 64GB Ram 1TB SSD (Late 2017) £5499
-// 27-Inch Apple iMac Pro ”10 Core" 3.0Ghz Xeon W  32GB Ram 1TB SSD (Late 2017) £4799
-// 27-Inch Apple iMac Pro ”8 Core" 3.2Ghz Xeon W  32GB Ram 1TB SSD (Late 2017) £3299
-
-// Mac Mini
-// Apple Mac Mini "Core i5" 2.3Ghz 4Gb Ram 500GB HDD (Mid-2011) £300
-// Apple Mac Mini "Core i5" 2.5Ghz 4Gb Ram 500GB HDD (Late 2012) £350
-// Apple Mac Mini "Core i5" 2.6Ghz 8Gb Ram 1TB HDD (Late 2014) £450
-// Apple Mac mini "Core i7" 2.3Ghz Quad Core 4GB Ram 1TB HDD (Late 2012) £450
-// Apple Mac Mini "Core i5" 3.0Ghz 8Gb Ram 256GB SSD (Late 2018) £899
-// Apple Mac Mini "Core i7” 3.2Ghz 8Gb Ram 128GB SSD (Late 2018) £999
-
-// Mac Pro
-// Apple Mac Pro 6.1 "Trashcan" Intel Based "Quad Core" Desktop 3.7Ghz 12GB Ram 256GB SSD £1100
-
-// 11 inch Macbook Air
-// 11.6 inch Apple Macbook Air "Core I5" 1.4Ghz 4Gb Ram 128Gb SSD (Early 2014)
-// 11.6 inch Apple Macbook Air "Core I7" 2.0Ghz 4Gb Ram 128Gb SSD (Mid-2012)
-// 11.6 inch Apple Macbook Air "Core I5” 1.6Ghz 4Gb Ram 128GB SSD (Mid-2011)
-// 11.6 inch Apple Macbook Air "Core I7” 1.8Ghz 4Gb Ram 128GB SSD (Mid-2011)
-
-// 13 inch Macbook Air
-// 13 inch Apple MacBook Air "Core I5" 1.8GHZ 8GB Ram 128GB SSD (2017) £700
-// 13 inch Apple MacBook Air "Core i5" 1.4GHZ 4GB Ram 128GB SSD (Early 2014) £500
-// 13 inch Apple MacBook Air "Core i5" 1.6GHZ 4GB Ram 128GB SSD (Early 2015) £550
-// 13 inch Apple MacBook Air "Core i5" 1.8GHZ 4GB Ram 128GB SSD (Mid-2012) £450
-// 13 inch Apple MacBook Air "Core i7" 2.2GHZ 8GB Ram 128GB SSD (2017) £750
-// 13 inch Apple MacBook Air "Core i7" 2.0 GHZ 4GB Ram 256GB SSD (Mid-2012) £550
-// 13 inch Apple Macbook Air Retina Display "Core I5" 1.6Ghz 8Gb Ram 128Gb SSD (2018) (Touch Id) £850
-
-// 13 inch Macbook pro
-// Apple Macbook Pro "Core 2 Duo" 13 inch 2.26Ghz 2Gb Ram 160Gb Hdd (Mid-2009) £250
-// Apple MacBook Pro "Core 2 Duo" 13 inch 2.4Ghz 4GB Ram 250GB HDD (Mid-2010) £275
-// Apple Macbook Pro "Core I5" 13 inch 2.3Ghz I5 4Gb Ram 320Gb Hdd (Early 2011) £400
-// Apple Macbook Pro "Core I5" 13 inch 2.4Ghz I5 4Gb Ram 500Gb Hdd (Late 2011) £450
-// Apple Macbook Pro "Core I5" 13 inch 2.5Ghz I5 4Gb Ram 500Gb Hdd (Mid 2012) £500
-// Apple Macbook Pro "Core I7" 13 inch 2.9Ghz I7 8Gb Ram 750Gb Hdd (Mid-2012) £550
-
-// 13 inch Touch bar
-// 13 inch Retina Display (Touch Bar) Apple MacBook Pro “Core i5" 2.9Ghz 8Gb 256GB SSD (Late 2016) £900
-// 13 inch Retina Display (Touch Bar) Apple MacBook Pro “Core i7" 3.3Ghz 8Gb 256GB SSD (Late 2016) £1050
-// 13 inch Retina Display (Touch Bar) (Touch ID) Apple MacBook Pro “Core i5” 1.4Ghz 8Gb 256GB SSD (2019) £1000
-// 13 inch Retina Display (Two Thunderbolt 3 Ports) Apple MacBook Pro “Core i5" 2.0Ghz 8Gb 128GB SSD (Late 2016) £700
-// 13 inch Retina Display (Two Thunderbolt 3 Ports) Apple MacBook Pro “Core i5" 2.3Ghz 8Gb 128GB SSD (Mid-2017) £800
-// 13 inch Retina Display (Two Thunderbolt 3 Ports) Apple MacBook Pro “Core i7" 2.4Ghz 8Gb 256GB SSD (Late 2016) £850
-// 13 inch Retina Display (Two Thunderbolt 3 Ports) Apple MacBook Pro “Core i7" 2.5Ghz 8Gb 128GB SSD (Mid-2017) £1000
 
 // 15 inch Unibody
 // Apple MacBook Pro "Core 2 Duo" 15 inch (Unibody) 2.4Ghz 4GB Ram 320GB HDD (Late 2008) £275
