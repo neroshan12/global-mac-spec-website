@@ -8,7 +8,7 @@ const Home = () => {
     <div>
       <Carousel />
       <div className="home">
-        <h3>Macs for sale</h3>
+        <h3>Latest deals</h3>
         <MacGrid />
       </div>
     </div>
