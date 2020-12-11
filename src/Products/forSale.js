@@ -1,4 +1,4 @@
-[
+const productsForSale = [
   {
     name: `21.5" iMac`,
     img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
@@ -630,3 +630,5 @@
     price: "£400",
   },
 ];
+
+export default productsForSale;
