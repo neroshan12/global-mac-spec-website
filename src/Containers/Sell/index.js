@@ -1,7 +1,15 @@
 import React from "react";
+import Quote from "../../Components/Quote";
 
 const Sell = () => {
-  return <div>Sell Mac</div>;
+  return (
+    <>
+      <div className="content-container">
+        {/* <MacGrid /> */}
+        <Quote />
+      </div>
+    </>
+  );
 };
 
 export default Sell;

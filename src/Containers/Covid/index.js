@@ -1,7 +1,7 @@
 import React from "react";
 
 const Covid = () => {
-  return <div>Covid 19</div>;
+  return <h2>Covid-19</h2>;
 };
 
 export default Covid;

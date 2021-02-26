@@ -9,7 +9,7 @@ const CarouselBox = () => {
         <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock3.jpg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock12.jpg"}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -20,7 +20,7 @@ const CarouselBox = () => {
         <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock9.jpg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock13.jpg"}
             alt="Third slide"
           />
 
@@ -32,7 +32,7 @@ const CarouselBox = () => {
         <Carousel.Item style={{ height: "400px" }}>
           <img
             className="d-block w-100"
-            src={process.env.PUBLIC_URL + "/static/carousel/stock10.jpg"}
+            src={process.env.PUBLIC_URL + "/static/carousel/stock14.jpg"}
             alt="Third slide"
           />
 

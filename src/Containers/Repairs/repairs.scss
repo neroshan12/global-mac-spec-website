@@ -2,14 +2,14 @@
   width: 15rem;
   height: 15rem;
   padding: 10px;
-
-  &:hover {
-    background-color: grey;
-  }
 }
 
-.container {
+.repair-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 3px;
+  &:hover {
+    background-color: #dcdcdc;
+  }
 }
