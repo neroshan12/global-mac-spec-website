@@ -9,7 +9,6 @@ const Quote = () => {
   const USER_ID = process.env.REACT_APP_EMAIL_USER_ID;
 
   const handleSubmit = () => {
-    console.log("am i callend");
     let templateParams = {
       name: "Nero - real test",
       email: "nero@nero.com- real test",

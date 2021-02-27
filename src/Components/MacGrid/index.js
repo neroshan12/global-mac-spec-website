@@ -8,7 +8,11 @@ const MacGrid = (data) => {
       <CardDeck>
         {data.data.map((item, index) => {
           return (
-            <Card key={index} className="card">
+            <Card
+              style={{ minWidth: "18rem", width: "18rem", marginTop: "0.5rem" }}
+              key={index}
+              className="card"
+            >
               <Card.Img
                 className="card-image"
                 variant="top"
