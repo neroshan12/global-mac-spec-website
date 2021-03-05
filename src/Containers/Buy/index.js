@@ -9,12 +9,12 @@ import "./buy.scss";
 const Buy = () => {
   return (
     <Container>
-      <Row>
-        <Col sm={6} lg={9}>
-          <h2>iMac</h2>
+      <h2>iMac</h2>
+      <Row noGutter>
+        <Col className="grid-content-container" sm={6} lg={9}>
           <MacGrid data={iMacForSale} />
         </Col>
-        <Col sm={6} lg={3}>
+        <Col className="grid-content-container" sm={6} lg={3}>
           <Quote />
         </Col>
       </Row>

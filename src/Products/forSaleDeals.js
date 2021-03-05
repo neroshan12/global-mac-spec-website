@@ -26,7 +26,7 @@ const productsForSaleDeals = {
       processor: `"Quad Core I5" 3.0Ghz`,
       ram: "8GB Ram",
       memory: "1TB HDD",
-      year: `(4K, Mid-2017) (USB-C Thunderbolt 3)`,
+      year: `(4K, Mid-2017) (Thunderbolt 3)`,
       price: "£849",
     },
   ],

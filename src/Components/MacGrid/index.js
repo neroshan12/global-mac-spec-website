@@ -2,14 +2,37 @@ import React from "react";
 import { CardDeck, Card, Column, Row, Col, Container } from "react-bootstrap";
 import "./macgrid.scss";
 
-const MacGrid = (data) => {
+const MacGrid = ({ data, dealsGrid = false }) => {
+  let xs;
+  let sm;
+  let md;
+  let lg;
+  if (dealsGrid) {
+    xs = 12;
+    sm = 12;
+    md = 4;
+    lg = 4;
+  } else {
+    xs = 12;
+    sm = 12;
+    md = 12;
+    lg = 6;
+  }
+
   return (
     <div className="card-deck-container">
       <Container>
         <CardDeck>
-          {data.data.map((item, index) => {
+          {data.map((item, index) => {
             return (
-              <Col xs={12} sm={12} md={12} lg={6} className="container">
+              <Col
+                xs={xs}
+                sm={sm}
+                md={md}
+                lg={lg}
+                className="container"
+                key={index}
+              >
                 <Card
                   style={{ margin: "0rem", marginTop: "0.5rem" }}
                   key={index}

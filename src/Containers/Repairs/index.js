@@ -6,7 +6,6 @@ import "./repairs.scss";
 const Repairs = () => {
   return (
     <div>
-      <h1>Repairs</h1>
       {/* 
       <img src={process.env.PUBLIC_URL + "static/repairs/battery.png"}></img>
       <img src={process.env.PUBLIC_URL + "static/repairs/drops.png"}></img>
@@ -14,6 +13,7 @@ const Repairs = () => {
       <img src={process.env.PUBLIC_URL + "static/repairs/screen.png"}></img> */}
 
       <Container>
+        <h1>Repairs</h1>
         <Row xs={1} sm={2} md={3}>
           <Col className="repair-container">
             <Image

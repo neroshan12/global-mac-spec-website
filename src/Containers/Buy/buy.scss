@@ -16,3 +16,9 @@
   display: flex;
   flex-direction: column;
 }
+.row {
+  .grid-content-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}

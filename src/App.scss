@@ -1,7 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 .App {
-  .body {
-    font-size: 14px;
+  .footer-container {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    max-width: 100%;
+    padding-right: 12rem;
+    padding-left: 12rem;
   }
 }
