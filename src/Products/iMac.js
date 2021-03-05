@@ -1,7 +1,7 @@
 const iMacForSale = [
   {
     name: `21.5" iMac`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Dual Core I5" 1.4Ghz`,
     ram: "8GB Ram",
     memory: "500GB HDD",
@@ -10,7 +10,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core I5" 2.7Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -19,7 +19,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core I5" 3.0Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -28,7 +28,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core I5" 3.1Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -37,7 +37,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core I7" 3.1Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -46,7 +46,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core 2 Duo" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -55,7 +55,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i3" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -64,7 +64,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i5" 2.5Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -73,7 +73,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i7" 2.8Ghz`,
     ram: "4GB Ram",
     memory: "1TB HDD",
@@ -82,7 +82,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i5" 2.9Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -91,7 +91,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i5" 3.2Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -100,7 +100,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i5" 3.4Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -109,7 +109,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core i7" 3.5Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -118,7 +118,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac Aluminium`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Quad Core Duo" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "1TB HDD",
@@ -127,7 +127,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac Pro`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `”14 Core" 2.5Ghz Xeon W`,
     ram: "64GB Ram",
     memory: "1TB SSD",
@@ -136,7 +136,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac Pro`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `”10 Core" 3.0Ghz Xeon W`,
     ram: "32GB Ram",
     memory: "1TB SSD",
@@ -145,7 +145,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac Pro`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `”8 Core" 3.2Ghz Xeon W`,
     ram: "32GB Ram",
     memory: "1TB SSD",
@@ -154,7 +154,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 2.3Ghz `,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -163,7 +163,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 2.5Ghz `,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -172,7 +172,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 2.6Ghz `,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -181,7 +181,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 3.0Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -190,7 +190,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i7” 3.2Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -199,7 +199,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Pro 6.1 "Trashcan"`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `Intel Based "Quad Core" Desktop 3.7Ghz`,
     ram: "12GB Ram",
     memory: "256GB SSD",
@@ -208,7 +208,7 @@ const iMacForSale = [
   },
   {
     name: `Apple Mac Pro 6.1 "Trashcan"`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `Intel Based "Quad Core" Desktop 3.7Ghz`,
     ram: "12GB Ram",
     memory: "256GB SSD",
