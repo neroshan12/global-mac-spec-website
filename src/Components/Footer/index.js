@@ -1,6 +1,7 @@
 import React from "react";
 import { CardDeck, Card, Column, Row, Col, Container } from "react-bootstrap";
-import Quote from "../../Components/Quote";
+import Quote from "../Quote";
+import Map from "../Map";
 import "./footer.scss";
 
 const Footer = () => {
@@ -17,6 +18,7 @@ const Footer = () => {
           <p>email:globalmacspec@gmail.com</p>
           <p>telephone: 07983209777</p>
           <p>address: 69-77 High Street, Croydon, CR0 1QQ</p>
+          <Map />
         </Col>
 
         <Col sm={4}>
@@ -32,6 +34,7 @@ const Footer = () => {
           </p>
         </Col>
         <Col sm={4}>
+          <h4>Contact Us</h4>
           <Quote />
         </Col>
       </Row>

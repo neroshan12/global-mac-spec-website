@@ -1,7 +1,7 @@
-const MacBookAirfORsALE = [
+const macBookAirForSale = [
   {
     name: `11.6" Apple Macbook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core I5" 1.4Ghz`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -10,7 +10,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `11.6" Apple Macbook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i7" 2.0Ghz`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -19,7 +19,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `11.6" Apple Macbook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.6Ghz`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -28,7 +28,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `11.6" Apple Macbook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i7" 1.8Ghz`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -37,7 +37,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.8GHZ`,
     ram: "8GB Ram",
     memory: "128Gb SSD",
@@ -46,7 +46,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.4GHZ`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -55,7 +55,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.6GHZ`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -64,7 +64,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.8GHZ`,
     ram: "4GB Ram",
     memory: "128Gb SSD",
@@ -73,7 +73,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i7" 2.2GHZ`,
     ram: "8GB Ram",
     memory: "128Gb SSD",
@@ -82,7 +82,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple MacBook Air`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i7" 2.0GHZ`,
     ram: "4GB Ram",
     memory: "256Gb SSD",
@@ -91,7 +91,7 @@ const MacBookAirfORsALE = [
   },
   {
     name: `13 inch Apple Macbook Air Retina Display Touch ID`,
-    img: `process.env.PUBLIC_URL + "static/Macs/21.5inchimac.jpeg"`,
+    img: "static/Macs/21.5inchimac.jpeg",
     processor: `"Core i5" 1.6Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -99,3 +99,5 @@ const MacBookAirfORsALE = [
     price: "£850",
   },
 ];
+
+export default macBookAirForSale;

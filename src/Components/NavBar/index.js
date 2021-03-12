@@ -5,7 +5,7 @@ import "./nav.scss";
 
 const NavBar = () => {
   return (
-    <Navbar bg="light" variat="light" expand="lg">
+    <Navbar bg="light" variant="light" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav.Link as={Link} to="/buy">
