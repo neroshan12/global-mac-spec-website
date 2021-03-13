@@ -82,7 +82,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
     processor: `"Quad Core i5" 2.9Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -91,7 +91,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
     processor: `"Quad Core i5" 3.2Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -100,7 +100,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
     processor: `"Quad Core i5" 3.4Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -109,7 +109,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac (slim)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
     processor: `"Quad Core i7" 3.5Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -118,7 +118,7 @@ const iMacForSale = [
   },
   {
     name: `27" iMac Aluminium`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchImac.jpeg",
     processor: `"Quad Core Duo" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "1TB HDD",

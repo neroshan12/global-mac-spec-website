@@ -1,7 +1,7 @@
 const macBookProForSale = [
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.26Ghz`,
     ram: "2GB Ram",
     memory: "160GB HDD",
@@ -10,7 +10,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "250GB HDD",
@@ -19,7 +19,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.3Ghz`,
     ram: "4GB Ram",
     memory: "320GB HDD",
@@ -28,7 +28,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -37,7 +37,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.5Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -46,7 +46,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i7" 2.9Ghz`,
     ram: "8GB Ram",
     memory: "750GB HDD",
@@ -55,7 +55,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"Core i5" 2.9Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -64,7 +64,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"Core i7" 3.3Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -73,7 +73,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display Touch Bar Touch ID`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 1.4Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -82,7 +82,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i5" 2.0Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -91,7 +91,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i5" 2.3Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -100,7 +100,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i7" 2.4Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -109,7 +109,7 @@ const macBookProForSale = [
   },
   {
     name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i7" 2.5Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -118,7 +118,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "320GB HDD",
@@ -127,7 +127,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "320GB HDD",
@@ -136,7 +136,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.66Ghz`,
     ram: "4GB Ram",
     memory: "320GB HDD",
@@ -145,7 +145,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.3Ghz`,
     ram: "8GB Ram",
     memory: "500GB HDD",
@@ -154,7 +154,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.0Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -163,7 +163,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.3Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -172,7 +172,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.2Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -181,7 +181,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.5Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -190,7 +190,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.8Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -199,7 +199,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.2Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -208,7 +208,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.5Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -217,7 +217,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.8Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -225,8 +225,8 @@ const macBookProForSale = [
     price: "£1250",
   },
   {
-    name: `15" Macbook Pro Retina Display touch bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    name: `15" Macbook Pro Retina Display Touch Bar`,
+    img: "static/Macs/15inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"Quad Core i7" 2.6Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -235,7 +235,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/15inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"Quad Core i7" 2.8Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -244,7 +244,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/15inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"Quad Core i7" 2.9Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -253,7 +253,7 @@ const macBookProForSale = [
   },
   {
     name: `15" Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/15inchMacbookPro(TouchBar)2016-18.jpeg",
     processor: `"6 Core i7" 2.2Ghz`,
     ram: "16GB Ram",
     memory: "256GB SSD",
@@ -262,7 +262,7 @@ const macBookProForSale = [
   },
   {
     name: `16" Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"6 Core i7" 2.6Ghz`,
     ram: "16GB Ram",
     memory: "512GB SSD",
@@ -271,7 +271,7 @@ const macBookProForSale = [
   },
   {
     name: `16" Macbook Pro Retina Display Touch Bar`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/16inchMacbookPro(TouchBar)2020.jpeg",
     processor: `"8 Core i9" 2.3Ghz`,
     ram: "16GB Ram",
     memory: "1TB SSD",
@@ -280,7 +280,7 @@ const macBookProForSale = [
   },
   {
     name: `17" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.53Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -289,7 +289,7 @@ const macBookProForSale = [
   },
   {
     name: `17" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.2Ghz`,
     ram: "4GB Ram",
     memory: "750GB HDD",
@@ -298,7 +298,7 @@ const macBookProForSale = [
   },
   {
     name: `17" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "750GB HDD",
@@ -307,7 +307,7 @@ const macBookProForSale = [
   },
   {
     name: `17" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 2.66Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -316,7 +316,7 @@ const macBookProForSale = [
   },
   {
     name: `17" Macbook Pro (Unibody)`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",

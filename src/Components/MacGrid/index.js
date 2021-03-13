@@ -41,7 +41,12 @@ const MacGrid = ({ data, dealsGrid = false }) => {
                   <Card.Img
                     className="card-image"
                     variant="top"
-                    src={process.env.PUBLIC_URL + item.img}
+                    src={
+                      item.img
+                        ? process.env.PUBLIC_URL + item.img
+                        : process.env.PUBLIC_URL +
+                          `static/Macs/stockappleimage.jpeg`
+                    }
                   />
                   <Card.Body>
                     <Card.Title>{item.name}</Card.Title>

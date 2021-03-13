@@ -1,7 +1,7 @@
 const iMacProForSale = [
   {
     name: `27" iMac Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchiMacPro2018.jpeg",
     processor: `”14 Core" 2.5Ghz Xeon W`,
     ram: "64GB Ram",
     memory: "1TB SSD",
@@ -10,7 +10,7 @@ const iMacProForSale = [
   },
   {
     name: `27" iMac Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchiMacPro2018.jpeg",
     processor: `”10 Core" 3.0Ghz Xeon W`,
     ram: "32GB Ram",
     memory: "1TB SSD",
@@ -19,7 +19,7 @@ const iMacProForSale = [
   },
   {
     name: `27" iMac Pro`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "static/Macs/27inchiMacPro2018.jpeg",
     processor: `”8 Core" 3.2Ghz Xeon W`,
     ram: "32GB Ram",
     memory: "1TB SSD",
