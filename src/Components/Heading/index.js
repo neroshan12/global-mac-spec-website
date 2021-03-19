@@ -5,7 +5,7 @@ import "./heading.scss";
 const Heading = () => {
   return (
     <div className="heading-container">
-      <Link to="/">
+      {/* <Link to="/">
         <img
           alt=""
           src={process.env.PUBLIC_URL + "static/global-macspec-logo.jpg"}
@@ -13,7 +13,7 @@ const Heading = () => {
           height="100"
           className="gms-logo"
         />
-      </Link>
+      </Link> */}
 
       <div className="heading-content">
         <h2>Global Mac Spec</h2>

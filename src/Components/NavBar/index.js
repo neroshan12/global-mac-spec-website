@@ -8,6 +8,15 @@ const NavBar = () => {
     <Navbar bg="light" variant="light" expand="lg">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Brand as={Link} to="/">
+          <img
+            src={process.env.PUBLIC_URL + "static/global-macspec-logo.jpg"}
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
         <Nav.Link as={Link} to="/buy">
           Buy a mac
         </Nav.Link>

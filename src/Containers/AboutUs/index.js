@@ -1,13 +1,14 @@
 import React from "react";
 import { Column, Row, Col, Container } from "react-bootstrap";
+import Footer from "../../Components/Footer";
 
 const AboutUs = () => {
   return (
     <>
-      <div className="content-container">
+      <div className="container">
         <h2>About Us</h2>
       </div>
-      <div className="content-container">
+      <div>
         <Container>
           <Row>
             <Col>
@@ -113,6 +114,7 @@ const AboutUs = () => {
           </Row>
         </Container>
       </div>
+      <Footer />
     </>
   );
 };

@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Quote from "../../Components/Quote";
+import Footer from "../../Components/Footer";
 import "./repairs.scss";
 
 const Repairs = () => {
   return (
-    <div>
+    <>
       {/* 
       <img src={process.env.PUBLIC_URL + "static/repairs/battery.png"}></img>
       <img src={process.env.PUBLIC_URL + "static/repairs/drops.png"}></img>
@@ -49,7 +50,8 @@ const Repairs = () => {
         </Row>
         <Quote />
       </Container>
-    </div>
+      <Footer />
+    </>
   );
 };
 

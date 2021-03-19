@@ -36,6 +36,15 @@
   @media (min-width: 1024px) {
     padding-right: 0rem !important;
   }
+
+  .form-container {
+    background: linear-gradient(
+      90deg,
+      rgba(190, 210, 255, 0.21052170868347342) 100%,
+      rgba(2, 0, 36, 1) 100%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
 }
 
 .mac-grid-container {

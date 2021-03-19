@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Map from "../../Components/Map";
+import Footer from "../../Components/Footer";
 
 const ContactUs = () => {
   return (
@@ -38,6 +39,7 @@ const ContactUs = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 };
