@@ -1,7 +1,7 @@
 const otherForSale = [
   {
     name: `Apple Mac Mini`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.3Ghz `,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -10,7 +10,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.5Ghz `,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -19,7 +19,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 2.6Ghz `,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -28,7 +28,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i5" 3.0Ghz`,
     ram: "8GB Ram",
     memory: "256GB SSD",
@@ -37,7 +37,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Mini`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i7” 3.2Ghz`,
     ram: "8GB Ram",
     memory: "128GB SSD",
@@ -46,7 +46,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Pro 6.1 "Trashcan"`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `Intel Based "Quad Core" Desktop 3.7Ghz`,
     ram: "12GB Ram",
     memory: "256GB SSD",
@@ -55,7 +55,7 @@ const otherForSale = [
   },
   {
     name: `Apple Mac Pro 6.1 "Trashcan"`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `Intel Based "Quad Core" Desktop 3.7Ghz`,
     ram: "12GB Ram",
     memory: "256GB SSD",

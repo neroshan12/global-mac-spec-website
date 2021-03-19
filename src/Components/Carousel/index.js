@@ -3,10 +3,11 @@ import { Carousel } from "react-bootstrap";
 import "./carousel.scss";
 
 const CarouselBox = () => {
+  const carouselHeight = "600px";
   return (
     <div className="carousel-container">
       <Carousel>
-        <Carousel.Item style={{ height: "400px" }}>
+        <Carousel.Item style={{ height: carouselHeight }}>
           <img
             className="d-block w-100"
             src={process.env.PUBLIC_URL + "/static/carousel/stock12.jpg"}
@@ -17,25 +18,23 @@ const CarouselBox = () => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={{ height: "400px" }}>
+        <Carousel.Item style={{ height: carouselHeight }}>
           <img
             className="d-block w-100"
             src={process.env.PUBLIC_URL + "/static/carousel/stock13.jpg"}
             alt="Third slide"
           />
-
           <Carousel.Caption>
             <h3>Second slide label</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item style={{ height: "400px" }}>
+        <Carousel.Item style={{ height: carouselHeight }}>
           <img
             className="d-block w-100"
             src={process.env.PUBLIC_URL + "/static/carousel/stock14.jpg"}
             alt="Third slide"
           />
-
           <Carousel.Caption>
             <h3>Third slide label</h3>
             <p>

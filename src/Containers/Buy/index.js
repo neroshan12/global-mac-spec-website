@@ -95,11 +95,11 @@ const Buy = () => {
         </Nav.Item>
       </Nav>
 
-      <Row noGutters>
-        <Col className="grid-content-container" sm={6} lg={9}>
+      <Row>
+        <Col className="mac-grid-container" sm={6} lg={9}>
           <MacGrid data={displayedProducts} />
         </Col>
-        <Col className="grid-content-container" sm={6} lg={3}>
+        <Col className="quote-container" sm={6} lg={3}>
           <Quote />
         </Col>
       </Row>

@@ -19,7 +19,6 @@ const Heading = () => {
         <h2>Global Mac Spec</h2>
         <h4>Call us free on 07983209777</h4>
       </div>
-      <div></div>
     </div>
   );
 };

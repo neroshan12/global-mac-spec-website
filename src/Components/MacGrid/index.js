@@ -25,14 +25,7 @@ const MacGrid = ({ data, dealsGrid = false }) => {
         <CardDeck>
           {data.map((item, index) => {
             return (
-              <Col
-                xs={xs}
-                sm={sm}
-                md={md}
-                lg={lg}
-                className="container"
-                key={index}
-              >
+              <Col xs={xs} sm={sm} md={md} lg={lg} key={index}>
                 <Card
                   style={{ margin: "0rem", marginTop: "0.5rem" }}
                   key={index}

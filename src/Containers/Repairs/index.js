@@ -21,7 +21,7 @@ const Repairs = () => {
               rounded
               className="repair-image"
             />
-            <p>From £90</p>
+            <p>Battery repair from only £90</p>
           </Col>
           {/* <Col className="container">
             <Image
@@ -36,7 +36,7 @@ const Repairs = () => {
               rounded
               className="repair-image"
             />
-            <p>From £60</p>
+            <p>Hard drive repair from only £60</p>
           </Col>
           <Col className="repair-container">
             <Image
@@ -44,7 +44,7 @@ const Repairs = () => {
               rounded
               className="repair-image"
             />
-            <p>From £199</p>
+            <p>Screen repair from only £199</p>
           </Col>
         </Row>
         <Quote />

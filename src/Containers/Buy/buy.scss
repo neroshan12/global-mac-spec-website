@@ -26,3 +26,19 @@
 .nav-tabs {
   justify-content: center;
 }
+
+.quote-container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  @media (min-width: 576px) {
+    margin-top: 0rem;
+  }
+  @media (min-width: 1024px) {
+    padding-right: 0rem !important;
+  }
+}
+
+.mac-grid-container {
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
