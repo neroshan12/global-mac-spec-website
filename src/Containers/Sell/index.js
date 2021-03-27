@@ -6,7 +6,7 @@ const Sell = () => {
   return (
     <>
       <div className="container">
-        <h1>Sell a mac</h1>
+        <h1 className="custom-headings">Sell a mac</h1>
         <Quote />
       </div>
       <Footer />

@@ -1,3 +1,8 @@
+$primary-blue: #2b4570;
+$text-color: #fff;
+$secondary: #f8f9fa;
+$secondary-blue: #bfd7ea;
+
 .card-deck-container {
   @media (min-width: 768px) {
   }
@@ -19,6 +24,14 @@
 
 .card-description {
   margin-bottom: 0.25rem;
+  &__price {
+    color: $primary-blue;
+    font-weight: 700;
+    border-top: 1px solid $secondary-blue;
+    border-bottom: 1px solid $secondary-blue;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+  }
 }
 
 .card-title {

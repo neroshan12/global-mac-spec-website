@@ -43,6 +43,7 @@ const MacGrid = ({ data, dealsGrid = false }) => {
                   />
                   <Card.Body>
                     <Card.Title>{item.name}</Card.Title>
+                    {/* 
                     <Card.Text className="card-description">
                       {item.processor}
                     </Card.Text>
@@ -56,9 +57,14 @@ const MacGrid = ({ data, dealsGrid = false }) => {
                       <Card.Text className="card-description">
                         {item.year}
                       </Card.Text>
-                    )}
+                    )} */}
 
                     <Card.Text className="card-description">
+                      | {item.processor} | {item.ram} | {item.memory} |{" "}
+                      {item.year && item.year} |
+                    </Card.Text>
+
+                    <Card.Text className="card-description__price">
                       {item.price}
                     </Card.Text>
                   </Card.Body>

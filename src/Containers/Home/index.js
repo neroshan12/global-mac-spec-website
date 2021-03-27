@@ -11,7 +11,7 @@ const Home = () => {
     <>
       {/* <Carousel /> */}
       <div className="home">
-        <h3>Latest deals</h3>
+        <h3 className="custom-headings">Latest offers</h3>
 
         <MacGrid data={productsForSaleDeals.row1} dealsGrid={true} />
         <MacGrid data={productsForSaleDeals.row2} dealsGrid={true} />

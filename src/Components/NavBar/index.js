@@ -18,13 +18,13 @@ const NavBar = () => {
           />
         </Navbar.Brand>
         <Nav.Link as={Link} to="/buy">
-          Buy a mac
+          Buy
         </Nav.Link>
         <Nav.Link as={Link} to="/hire">
-          Hire a mac
+          Hire
         </Nav.Link>
         <Nav.Link as={Link} to="/sell">
-          Sell a mac
+          Sell
         </Nav.Link>
         <Nav.Link as={Link} to="/repairs">
           Repairs

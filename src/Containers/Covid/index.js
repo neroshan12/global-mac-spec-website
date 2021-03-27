@@ -6,7 +6,7 @@ const Covid = () => {
   return (
     <>
       <div className="container">
-        <h1>Covid-19</h1>
+        <h1 className="custom-headings">Covid-19</h1>
         <Container>
           <Row>
             <p>Guidelines pending.</p>

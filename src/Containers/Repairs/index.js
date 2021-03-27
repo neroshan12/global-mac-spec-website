@@ -14,7 +14,7 @@ const Repairs = () => {
       <img src={process.env.PUBLIC_URL + "static/repairs/screen.png"}></img> */}
 
       <Container>
-        <h1>Repairs</h1>
+        <h1 className="custom-headings">Repairs</h1>
         <Row xs={1} sm={2} md={3}>
           <Col className="repair-container">
             <Image

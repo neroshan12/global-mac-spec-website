@@ -45,3 +45,19 @@ body {
 .form-container {
   background-color: $secondary-blue;
 }
+
+.custom-headings {
+  color: $primary-blue;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: $primary-blue;
+}
+
+.btn {
+  &.btn-primary {
+    background-color: $primary-blue;
+    color: white;
+  }
+}
