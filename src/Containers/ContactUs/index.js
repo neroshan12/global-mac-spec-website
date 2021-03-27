@@ -12,29 +12,29 @@ const ContactUs = () => {
             <h1>Contact Us</h1>
           </Col>
           <Col sm={12}>
-            <h6>Where are we?</h6>
+            <h4>Where are we?</h4>
             <p>69-77 High Street, Croydon, CR0 1QQ</p>
             <Map />
           </Col>
         </Row>
         <Row>
           <Col>
-            <h6>Openning Times</h6>
+            <h4>Opening Times</h4>
             <p>Monday - Saturday</p>
-            <h6>Sunday</h6>
             <p>10am - 7pm</p>
+            <h4>Sunday</h4>
             <p>11am - 4pm</p>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h6>Train station</h6>
+            <h4>Train station</h4>
             <p>We're a short walk away from East Croydon station.</p>
           </Col>
         </Row>
         <Row>
           <Col>
-            <h6>Routes</h6>
+            <h4>Routes</h4>
             <p></p>
           </Col>
         </Row>

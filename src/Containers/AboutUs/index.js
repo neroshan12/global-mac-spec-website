@@ -12,7 +12,7 @@ const AboutUs = () => {
         <Container>
           <Row>
             <Col>
-              <p className="strong">GLOBAL MACSPEC STOCK</p>
+              <h3>GLOBAL MACSPEC STOCK</h3>
               <p>
                 We stock just about every Apple Mac conceivable! Our range is
                 extensive, to say the least. If you require the highest spec Mac
@@ -32,7 +32,7 @@ const AboutUs = () => {
 
           <Row>
             <Col>
-              <p className="strong">Terms of Sale</p>
+              <h3>Terms of Sale</h3>
               <p>
                 Global Macspec offer a 14 Days Non-Consumable Warranty unless
                 otherwise agreed or stated within your invoice. This warranty
@@ -63,7 +63,7 @@ const AboutUs = () => {
 
           <Row>
             <Col>
-              <p className="strong">Terms of repair</p>
+              <h3>Terms of repair</h3>
               <p>
                 Please note that all quotes are made an assessment diagnosis
                 based on customer advice. Further technical investigation and
@@ -99,7 +99,7 @@ const AboutUs = () => {
           </Row>
           <Row>
             <Col>
-              <p className="strong">Delivery</p>
+              <h3 className="strong">Delivery</h3>
               <p>
                 All our items are delivered by courier (DPD or DHL Express
                 Delivery Services) or by post to the delivery address provided

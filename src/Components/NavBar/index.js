@@ -10,7 +10,7 @@ const NavBar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Navbar.Brand as={Link} to="/">
           <img
-            src={process.env.PUBLIC_URL + "static/global-macspec-logo.jpg"}
+            src={process.env.PUBLIC_URL + "static/global-macspec-logo.png"}
             width="30"
             height="30"
             className="d-inline-block align-top"

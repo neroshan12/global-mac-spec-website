@@ -48,6 +48,9 @@ const Repairs = () => {
             <p>Screen repair from only £199</p>
           </Col>
         </Row>
+        <div className="notice">
+          We are happy to do call out repairs at your convenience.
+        </div>
         <Quote />
       </Container>
       <Footer />
