@@ -16,3 +16,37 @@
     text-align: center;
   }
 }
+
+.test-blurb {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  @media (min-width: 1200px) {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  @media (min-width: 1400px) {
+    margin-right: 7rem;
+    margin-left: 7rem;
+  }
+
+  @media (min-width: 1500px) {
+    margin-right: 9rem;
+    margin-left: 9rem;
+  }
+
+  @media (min-width: 1560px) {
+    margin-right: 14rem;
+    margin-left: 14rem;
+  }
+}
+
+.test-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

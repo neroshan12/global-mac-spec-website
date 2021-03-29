@@ -17,10 +17,13 @@ const Footer = () => {
                 email us, or fill out our contact form for an instant reply!
               </p>
 
-              <p>Email:globalmacspec@gmail.com</p>
+              <p>
+                Email:{" "}
+                <a href="globalmacspec@gmail.com">globalmacspec@gmail.com</a>
+              </p>
               <p>Telephone: 07983209777</p>
               <p>Address: 69-77 High Street, Croydon, CR0 1QQ</p>
-              <Map />
+              <Map height="300px" />
             </Col>
 
             <Col className="footer-content" xs={12} sm={12} lg={4}>
