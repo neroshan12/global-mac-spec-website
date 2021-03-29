@@ -13,23 +13,23 @@ const Quote = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    let templateParams = {
-      name: "Nero - real test",
-      email: "nero@nero.com",
-      number: "07778788874",
-      message: "hello world",
-    };
+    // let templateParams = {
+    //   name: "Nero - real test",
+    //   email: "nero@nero.com",
+    //   number: "07778788874",
+    //   message: "hello world",
+    // };
 
-    let resp = await emailjs.send(
-      SERVICE_ID,
-      TEMPLATE_ID,
-      templateParams,
-      USER_ID
-    );
+    // let resp = await emailjs.send(
+    //   SERVICE_ID,
+    //   TEMPLATE_ID,
+    //   templateParams,
+    //   USER_ID
+    // );
 
-    if (resp.status === 200) {
-      setAlert(true);
-    }
+    // if (resp.status === 200) {
+    //   setAlert(true);
+    // }
   };
   return (
     <>
