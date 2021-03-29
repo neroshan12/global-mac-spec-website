@@ -32,6 +32,13 @@ const AboutUs = () => {
 
           <Row>
             <Col>
+              <h3>Covid-19</h3>
+              <p>Guidelines pending.</p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
               <h3>Terms of Sale</h3>
               <p>
                 Global Macspec offer a 14 Days Non-Consumable Warranty unless
