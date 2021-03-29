@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./nav.scss";
@@ -14,7 +14,7 @@ const NavBar = () => {
             width="30"
             height="30"
             className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            alt="Global Mac Spec logo"
           />
         </Navbar.Brand>
         <Nav.Link as={Link} to="/buy">
@@ -31,9 +31,6 @@ const NavBar = () => {
         </Nav.Link>
         <Nav.Link as={Link} to="/about-us">
           About Us
-        </Nav.Link>
-        <Nav.Link as={Link} to="/covid-19">
-          Covid-19
         </Nav.Link>
         <Nav.Link as={Link} to="/contact-us">
           Contact Us

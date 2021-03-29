@@ -17,12 +17,13 @@ const Repairs = () => {
         <h1 className="custom-headings">Repairs</h1>
         <Row xs={1} sm={2} md={3}>
           <Col className="repair-container">
+            <p className="info">Battery</p>
             <Image
               src={process.env.PUBLIC_URL + "static/repairs/battery.png"}
               rounded
               className="repair-image"
             />
-            <p>Battery repair from only £90</p>
+            <p className="info">from only £90</p>
           </Col>
           {/* <Col className="container">
             <Image
@@ -32,20 +33,22 @@ const Repairs = () => {
             />
           </Col> */}
           <Col className="repair-container">
+            <p className="info">Hard drive</p>
             <Image
               src={process.env.PUBLIC_URL + "static/repairs/hard-drive.png"}
               rounded
               className="repair-image"
             />
-            <p>Hard drive repair from only £60</p>
+            <p className="info">from only £60</p>
           </Col>
           <Col className="repair-container">
+            <p className="info">Screen</p>
             <Image
               src={process.env.PUBLIC_URL + "static/repairs/screen.png"}
               rounded
               className="repair-image"
             />
-            <p>Screen repair from only £199</p>
+            <p className="info">from only £199</p>
           </Col>
         </Row>
         <div className="notice">
