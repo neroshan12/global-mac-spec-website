@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Quote from "../../Components/Quote";
 import MacGrid from "../../Components/MacGrid";
 import iMacForSale from "../../Products/iMac";
@@ -8,7 +8,7 @@ import macBookProForSale from "../../Products/MacBookPro";
 import otherForSale from "../../Products/Other";
 import Footer from "../../Components/Footer";
 
-import { Column, Row, Col, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Row, Col, Container, Nav } from "react-bootstrap";
 
 //import "./buy.scss";
 

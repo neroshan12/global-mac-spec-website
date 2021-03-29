@@ -1,5 +1,5 @@
 import React from "react";
-import { CardDeck, Card, Column, Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import Quote from "../Quote";
 import Map from "../Map";
 import "./footer.scss";

@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../../Components/Carousel";
+//import Carousel from "../../Components/Carousel";
 import MacGrid from "../../Components/MacGrid";
 import Footer from "../../Components/Footer";
 import productsForSaleDeals from "../../Products/forSaleDeals.js";
