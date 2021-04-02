@@ -51,3 +51,14 @@ body {
     color: $text-color;
   }
 }
+
+.toast {
+  flex-basis: 650px;
+  max-width: 650px;
+  background: $light-grey;
+}
+
+.toast-header {
+  background: $light-grey;
+  border-bottom-color: $primary-blue;
+}

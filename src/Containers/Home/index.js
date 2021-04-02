@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import MacGrid from "../../Components/MacGrid";
 import Footer from "../../Components/Footer";
 import productsForSaleDeals from "../../Products/forSaleDeals.js";
-import { Toast } from "react-bootstrap";
 
 import "./home.scss";
 
