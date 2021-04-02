@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 //import Carousel from "../../Components/Carousel";
 import MacGrid from "../../Components/MacGrid";
 import Footer from "../../Components/Footer";
 import productsForSaleDeals from "../../Products/forSaleDeals.js";
+import { Toast } from "react-bootstrap";
 
 import "./home.scss";
 

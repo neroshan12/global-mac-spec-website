@@ -1,7 +1,7 @@
 const iMacForSale = [
   {
     name: `21.5" iMac`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Dual Core I5" 1.4Ghz`,
     ram: "8GB Ram",
     memory: "500GB HDD",
@@ -10,7 +10,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core I5" 2.7Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -19,7 +19,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core I5" 3.0Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -28,7 +28,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core I5" 3.1Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -37,7 +37,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core I7" 3.1Ghz`,
     ram: "8GB Ram",
     memory: "1TB HDD",
@@ -46,7 +46,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core 2 Duo" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -55,7 +55,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Core i3" 3.06Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -64,7 +64,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i5" 2.5Ghz`,
     ram: "4GB Ram",
     memory: "500GB HDD",
@@ -73,7 +73,7 @@ const iMacForSale = [
   },
   {
     name: `21.5" iMac Aluminium`,
-    img: "static/Macs/21.5inchimac.jpeg",
+    img: "",
     processor: `"Quad Core i7" 2.8Ghz`,
     ram: "4GB Ram",
     memory: "1TB HDD",

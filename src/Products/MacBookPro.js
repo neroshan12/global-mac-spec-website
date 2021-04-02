@@ -62,7 +62,6 @@ const macBookProForSale = [
     year: `(Mid 2012)`,
     price: "£550",
   },
-
   {
     name: `13" Macbook Pro (Unibody) Retina Display`,
     img: "",
@@ -72,7 +71,6 @@ const macBookProForSale = [
     year: `(2015)`,
     price: "£650",
   },
-
   {
     name: `13" Macbook Pro (Unibody) Retina Display`,
     img: "",
