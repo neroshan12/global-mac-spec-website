@@ -14,7 +14,7 @@ const NavBar = () => {
             width="30"
             height="30"
             className="d-inline-block align-top"
-            alt="Global Mac Spec logo"
+            alt="Global Macspec logo"
           />
         </Navbar.Brand>
         <Nav.Link as={Link} to="/buy">

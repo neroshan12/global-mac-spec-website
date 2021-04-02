@@ -11,7 +11,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col className="footer-content" xs={12} sm={12} lg={4}>
-              <h4>Global Mac Spec</h4>
+              <h4>Global Macspec</h4>
               <p>
                 If you want an instant quote for your hire or purchase? Call us,
                 email us, or fill out our contact form for an instant reply!
@@ -19,8 +19,11 @@ const Footer = () => {
 
               <p>
                 Email:{" "}
-                <a href="globalmacspec@gmail.com">globalmacspec@gmail.com</a>
+                <a href="mailto:globalmacspec@gmail.com">
+                  globalmacspec@gmail.com
+                </a>
               </p>
+
               <p>Telephone: 07983209777</p>
               <p>Address: 69-77 High Street, Croydon, CR0 1QQ</p>
               <Map height="300px" />
@@ -49,7 +52,7 @@ const Footer = () => {
 
       <Row className="footer-message-container">
         <div className="footer-message">
-          <h2>Global Mac Spec</h2>
+          <h2>Global Macspec</h2>
           <h5>Call us free on 07983209777</h5>
         </div>
       </Row>

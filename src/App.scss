@@ -1,18 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-$primary-blue: #2b4570;
-$text-color: #fff;
-$secondary: #f8f9fa;
-$secondary-blue: #bfd7ea;
+@import "Styles/variables.scss";
 
 .App {
-  // .footer-container {
-  //   margin-left: 0rem;
-  //   margin-right: 0rem;
-  //   max-width: 100%;
-  //   padding-right: 12rem;
-  //   padding-left: 12rem;
-  // }
-  background-color: white;
+  background-color: $primary-white;
 }
 
 body {
@@ -20,7 +10,7 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  background-color: $primary-white;
   // color: #3bba9c;
   border: none;
 }
@@ -43,7 +33,7 @@ body {
 }
 
 .form-container {
-  background-color: $secondary-blue;
+  background-color: $light-blue;
 }
 
 .custom-headings {
@@ -58,6 +48,6 @@ body {
 .btn {
   &.btn-primary {
     background-color: $primary-blue;
-    color: white;
+    color: $text-color;
   }
 }

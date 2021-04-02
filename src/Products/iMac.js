@@ -117,13 +117,22 @@ const iMacForSale = [
     price: "£850",
   },
   {
-    name: `27" iMac Aluminium`,
-    img: "static/Macs/27inchImac.jpeg",
-    processor: `"Quad Core Duo" 3.06Ghz`,
-    ram: "4GB Ram",
+    name: `27" iMac (slim)`,
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
+    processor: `"Quad Core i5" 3.4Ghz`,
+    ram: "16GB Ram",
     memory: "1TB HDD",
-    year: `(Late 2009)`,
-    price: "No price currently available",
+    year: `(5K Retina, Late 2015)`,
+    price: "£1000",
+  },
+  {
+    name: `27" iMac (slim)`,
+    img: "static/Macs/27inchSlimImac2012-2017.jpeg",
+    processor: `"Quad Core i5" 3.4Ghz`,
+    ram: "16GB Ram",
+    memory: "1TB Fusion Drive",
+    year: `(5K Retina, 2017)`,
+    price: "£1200",
   },
 ];
 

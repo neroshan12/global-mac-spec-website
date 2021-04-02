@@ -1,3 +1,5 @@
+@import "../../Styles/variables.scss";
+
 .repair-image {
   width: 15rem;
   height: 15rem;
@@ -12,7 +14,7 @@
   .info {
     margin-bottom: 0rem;
     font-size: 18px;
-    color: #2b4570;
+    color: $primary-blue;
     font-weight: 700;
   }
 }
@@ -38,6 +40,6 @@ h1 {
     width: 70%; /* Change this to whatever width you want. */
     padding-top: 1rem; /* This creates some space between the element and the border. */
     margin-bottom: 1.5rem;
-    border-bottom: 1px solid #bfd7ea; /* This creates the border. Replace black with whatever color you want. */
+    border-bottom: 1px solid $light-blue; /* This creates the border. Replace black with whatever color you want. */
   }
 }

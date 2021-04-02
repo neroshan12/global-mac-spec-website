@@ -10,7 +10,7 @@ const Map = ({ height = "500px", width = "100%" }) => {
         frameBorder="0"
         style={{ border: 0 }}
         allowFullScreen
-        title="google maps locations for Global Mac Spec office"
+        title="google maps locations for Global Macspec office"
         //  aria-hidden="false"
         //tabindex="0"
       ></iframe>

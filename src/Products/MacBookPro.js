@@ -11,6 +11,15 @@ const macBookProForSale = [
   {
     name: `13 inch Macbook Pro`,
     img: "",
+    processor: `"Core 2 Duo" 2.26Ghz`,
+    ram: "2GB Ram",
+    memory: "160GB HDD",
+    year: `(Mid-2009)`,
+    price: "£250",
+  },
+  {
+    name: `13 inch Macbook Pro`,
+    img: "",
     processor: `"Core 2 Duo" 2.4Ghz`,
     ram: "4GB Ram",
     memory: "250GB HDD",
@@ -53,6 +62,27 @@ const macBookProForSale = [
     year: `(Mid 2012)`,
     price: "£550",
   },
+
+  {
+    name: `13" Macbook Pro (Unibody) Retina Display`,
+    img: "",
+    processor: `"Dual-Core i5" 2.7Ghz`,
+    ram: "8GB Ram",
+    memory: "256SSD",
+    year: `(2015)`,
+    price: "£650",
+  },
+
+  {
+    name: `13" Macbook Pro (Unibody) Retina Display`,
+    img: "",
+    processor: `"Dual-Core i5" 2.4Ghz`,
+    ram: "8GB Ram",
+    memory: "256SSD",
+    year: `(2013)`,
+    price: "£600",
+  },
+
   {
     name: `13 inch Macbook Pro Retina Display Touch Bar`,
     img: "static/Macs/13inchMacbookPro(TouchBar)2016-18.jpeg",
@@ -81,7 +111,7 @@ const macBookProForSale = [
     price: "£1000",
   },
   {
-    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    name: `13 inch Macbook Pro Retina Display - Two Thunderbolt 3 (USB-C) Ports`,
     img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i5" 2.0Ghz`,
     ram: "8GB Ram",
@@ -90,7 +120,7 @@ const macBookProForSale = [
     price: "£700",
   },
   {
-    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    name: `13 inch Macbook Pro Retina Display - Two Thunderbolt 3 (USB-C) Ports`,
     img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i5" 2.3Ghz`,
     ram: "8GB Ram",
@@ -99,7 +129,7 @@ const macBookProForSale = [
     price: "£800",
   },
   {
-    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    name: `13 inch Macbook Pro Retina Display - Two Thunderbolt 3 (USB-C) Ports`,
     img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i7" 2.4Ghz`,
     ram: "8GB Ram",
@@ -108,7 +138,7 @@ const macBookProForSale = [
     price: "£850",
   },
   {
-    name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+    name: `13 inch Macbook Pro Retina Display - Two Thunderbolt 3 (USB-C) Ports`,
     img: "static/Macs/13inchMacbookPro2016-17.jpeg",
     processor: `"Core i7" 2.5Ghz`,
     ram: "8GB Ram",
@@ -177,7 +207,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2014)`,
-    price: "£950",
+    price: "£800",
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
@@ -186,7 +216,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2014)`,
-    price: "£1050",
+    price: "£900",
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
@@ -195,7 +225,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2014)`,
-    price: "£1150",
+    price: "£1000",
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
@@ -204,7 +234,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2015)`,
-    price: "£1050",
+    price: "£850",
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
@@ -213,7 +243,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2015)`,
-    price: "£1150",
+    price: "£950",
   },
   {
     name: `15" Macbook Pro (Unibody) Retina Display`,
@@ -222,7 +252,7 @@ const macBookProForSale = [
     ram: "16GB Ram",
     memory: "256GB SSD",
     year: `(Mid 2015)`,
-    price: "£1250",
+    price: "£1050",
   },
   {
     name: `15" Macbook Pro Retina Display Touch Bar`,

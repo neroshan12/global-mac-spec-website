@@ -21,7 +21,7 @@ const productsForSaleDeals = {
       price: "£1050",
     },
     {
-      name: `13 inch Macbook Pro Retina Display (Two Thunderbolt 3 Ports)`,
+      name: `13 inch Macbook Pro Retina Display - Two Thunderbolt 3 (USB-C) Ports`,
       img: "static/Macs/13inchMacbookPro2016-17.jpeg",
       processor: `"Core i5" 2.3Ghz`,
       ram: "8GB Ram",

@@ -18,7 +18,7 @@ const ContactUs = () => {
             <p>69-77 High Street, Croydon, CR0 1QQ</p>
 
             <h4>Train station</h4>
-            <p>We're a short walk away from East Croydon station.</p>
+            <p>We're a short walk away from East and West Croydon station.</p>
           </Col>
 
           <Col className="opening-times">
