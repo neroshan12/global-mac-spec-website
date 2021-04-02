@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Toast } from "react-bootstrap";
+import { Toast, TransitionComponent } from "react-bootstrap";
 
 const ToastPopUp = () => {
   const [showA, setShowA] = useState(true);
@@ -15,7 +15,7 @@ const ToastPopUp = () => {
       style={{
         position: "fixed",
         minHeight: "100px",
-        bottom: 0,
+        bottom: 5,
         display: "flex",
         justifyContent: "center",
         width: "100%",

@@ -2,7 +2,7 @@ import React from "react";
 import { CardDeck, Card, Column, Row, Col, Container } from "react-bootstrap";
 import "./macgrid.scss";
 
-const MacGrid = ({ data, dealsGrid = false }) => {
+const MacGrid = ({ data, dealsGrid = false, hire = false }) => {
   let xs;
   let sm;
   let md;
@@ -18,6 +18,23 @@ const MacGrid = ({ data, dealsGrid = false }) => {
     md = 12;
     lg = 6;
   }
+
+  const calculateHirePrice = (value) => {
+    let hirePrice;
+    if (value.charAt(0) === "£") {
+      let price = parseInt(value.substring(1));
+      if (price < 500) {
+        hirePrice = 19;
+      } else if (price > 1000) {
+        hirePrice = 30;
+      } else {
+        hirePrice = 25;
+      }
+      return `from £${hirePrice}/week`;
+    } else {
+      return value;
+    }
+  };
 
   return (
     <div className="card-deck-container">
@@ -60,12 +77,12 @@ const MacGrid = ({ data, dealsGrid = false }) => {
                     )} */}
 
                     <Card.Text className="card-description">
-                      | {item.processor} | {item.ram} | {item.memory} |{" "}
+                      | {item.processor} | {item.ram} | {item.memory} |
                       {item.year && item.year} |
                     </Card.Text>
 
                     <Card.Text className="card-description__price">
-                      {item.price}
+                      {hire ? calculateHirePrice(item.price) : item.price}
                     </Card.Text>
                   </Card.Body>
                 </Card>

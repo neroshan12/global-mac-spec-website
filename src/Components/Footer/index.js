@@ -41,6 +41,22 @@ const Footer = () => {
                 repairs, servicing and maintenance of pre-owned Apple Mac
                 computers.
               </p>
+              <img
+                src={process.env.PUBLIC_URL + `static/facebook.png`}
+                height="30"
+                width="30"
+                alt="facebook logo"
+              />
+              <img
+                src={process.env.PUBLIC_URL + `static/twitter.png`}
+                height="30"
+                width="30"
+                alt="twitter logo"
+              />
+
+              <p className="copyright">
+                Copyright 2021 Global Macspec. All Rights Reserved.
+              </p>
             </Col>
             <Col className="footer-content" xs={12} sm={12} lg={4}>
               <h4>Contact Us</h4>

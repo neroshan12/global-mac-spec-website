@@ -99,7 +99,7 @@ const Hire = () => {
 
         <Row>
           <Col className="mac-grid-container" sm={6} lg={9}>
-            <MacGrid data={displayedProducts} />
+            <MacGrid data={displayedProducts} hire={true} />
           </Col>
           <Col className="quote-container" sm={6} lg={3}>
             <Quote />

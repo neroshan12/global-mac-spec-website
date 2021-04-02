@@ -3,6 +3,7 @@
 
 .App {
   background-color: $primary-white;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -55,10 +56,18 @@ body {
 .toast {
   flex-basis: 650px;
   max-width: 650px;
-  background: $light-grey;
+  // background: rgba(232, 232, 232, 0.9);
 }
 
 .toast-header {
-  background: $light-grey;
-  border-bottom-color: $primary-blue;
+  // background: rgba(232, 232, 232, 0.9);
+  border-bottom-color: #dcdcdc;
+}
+
+.mr-auto {
+  margin-left: auto !important;
+}
+
+.toast-body {
+  text-align: center;
 }

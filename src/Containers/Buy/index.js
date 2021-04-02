@@ -7,8 +7,9 @@ import macBookAirForSale from "../../Products/MacBookAir";
 import macBookProForSale from "../../Products/MacBookPro";
 import otherForSale from "../../Products/Other";
 import Footer from "../../Components/Footer";
+import ScrollButton from "../../Components/ScrollButton";
 
-import { Row, Col, Container, Nav } from "react-bootstrap";
+import { Row, Col, Container, Nav, Button } from "react-bootstrap";
 
 import "./buy.scss";
 
@@ -44,7 +45,7 @@ const Buy = () => {
   return (
     <>
       <Container>
-        <Nav variant="tabs" defaultActiveKey="2">
+        <Nav variant="tabs" defaultActiveKey="3">
           <Nav.Item>
             <Nav.Link
               onSelect={(e) => {
@@ -96,7 +97,6 @@ const Buy = () => {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-
         <Row>
           <Col className="mac-grid-container" sm={6} lg={9}>
             <MacGrid data={displayedProducts} />
@@ -105,6 +105,7 @@ const Buy = () => {
             <Quote />
           </Col>
         </Row>
+        <ScrollButton />
       </Container>
       <Footer />
     </>
