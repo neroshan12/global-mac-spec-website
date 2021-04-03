@@ -26,9 +26,8 @@ const ScrollButton = () => {
         style={{
           height: 40,
           display: showScroll ? "flex" : "none",
-          // position: showScroll ? "fixed" : "",
-          right: showScroll ? 5 : "",
-          bottom: showScroll ? 5 : "",
+          right: showScroll ? "2rem" : "",
+          bottom: showScroll ? "1rem" : "",
         }}
       >
         UP
