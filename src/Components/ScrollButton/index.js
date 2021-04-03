@@ -20,7 +20,7 @@ const ScrollButton = () => {
 
   return (
     <div>
-      <button
+      {/* <button
         className="scrollTop"
         onClick={scrollTop}
         style={{
@@ -30,8 +30,29 @@ const ScrollButton = () => {
           bottom: showScroll ? "1rem" : "",
         }}
       >
-        UP
-      </button>
+        <img
+          height="10"
+          width="10"
+          src={process.env.PUBLIC_URL + "static/up-arrow.png"}
+        />
+      </button> */}
+
+      <input
+        style={{
+          height: 40,
+          display: showScroll ? "flex" : "none",
+          right: showScroll ? "2rem" : "",
+          bottom: showScroll ? "1rem" : "",
+          backgroundColor: showScroll ? "#bfd7ea" : "",
+          borderRadius: showScroll ? "2rem" : "",
+        }}
+        type="image"
+        onClick={scrollTop}
+        src={process.env.PUBLIC_URL + "static/up-arrow.png"}
+        name="scrollTop"
+        class="scrollTop"
+        id="scrollTop"
+      />
     </div>
   );
 };
