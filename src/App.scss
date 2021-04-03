@@ -56,11 +56,11 @@ body {
 .toast {
   flex-basis: 650px;
   max-width: 650px;
-  // background: rgba(232, 232, 232, 0.9);
+  background: white;
+  opacity: 1;
 }
 
 .toast-header {
-  // background: rgba(232, 232, 232, 0.9);
   border-bottom-color: #dcdcdc;
 }
 

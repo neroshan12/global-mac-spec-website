@@ -7,6 +7,7 @@ import macBookAirForSale from "../../Products/MacBookAir";
 import macBookProForSale from "../../Products/MacBookPro";
 import otherForSale from "../../Products/Other";
 import Footer from "../../Components/Footer";
+import ScrollButton from "../../Components/ScrollButton";
 
 import { Row, Col, Container, Nav } from "react-bootstrap";
 
@@ -105,6 +106,7 @@ const Hire = () => {
             <Quote />
           </Col>
         </Row>
+        <ScrollButton />
       </Container>
       <Footer />
     </>

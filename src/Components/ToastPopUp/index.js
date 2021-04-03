@@ -21,7 +21,7 @@ const ToastPopUp = () => {
         width: "100%",
       }}
     >
-      <Toast show={showA} onClose={toggleShowA}>
+      <Toast autohide delay={3500} show={showA} onClose={toggleShowA}>
         <Toast.Header>
           <strong className="mr-auto">😀 Great news!</strong>
         </Toast.Header>
